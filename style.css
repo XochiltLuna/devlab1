@@ -9,10 +9,19 @@ text-align:center;
     color:black;
     font-size:20px;
 }
+@keyframes spin{
+     from {transform:rotate(0deg);}
+     to{transform:rotate(60deg);}
+}
+     
 .headshot{
     width:20%;
     border-image: stretch;
-    border-style: double
+    border-style: double;
+    animation-duration: 7s;
+    animation-name:spin;
+    
+
    
 }
 .mid{
