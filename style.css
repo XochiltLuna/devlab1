@@ -1,0 +1,37 @@
+body{font-family: 'Merienda', cursive;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2K4kkasquLvBTjHiWNuApqlLReZxOBDrJbxCRTecLE_QXd7WW");
+text-align:center;
+}
+
+.row{   
+    
+    background-color:orange;
+    color:black;
+    font-size:20px;
+}
+.headshot{
+    width:20%;
+    border-image: stretch;
+    border-style: double
+   
+}
+.mid{
+    background-color:transparent;
+    color:brown;
+    padding:20px;
+    align-items:center;
+    font-size:50px;
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:5px;
+    display: flex;
+    justify-content:center;
+    
+    
+}
+.aboutme{
+    background-color:transparent;
+    height:300px;
+    display:flex;
+    justify-content:center;
+}
